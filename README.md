@@ -6,6 +6,13 @@ This project implements the K-arm Bandit problem using sequential, OpenMP, and M
 
 The K-arm Bandit problem is a decision-making problem where you have a slot machine with K levers, each providing a different, unknown reward. The goal is to figure out which lever gives the highest reward by balancing exploration (trying different levers to learn their rewards) and exploitation (choosing the lever that has given the highest reward so far).
 
+## Reference Implementation
+
+This project was inspired by and references the following implementation:
+- [Multi-armed-bandit-RL](https://github.com/nicoleorzan/Multi-armed-bandit-RL) by Nicole Orzan
+
+While we studied the original implementation to understand the K-arm Bandit problem, our code is a complete reimplementation focused on parallelization using OpenMP and MPI. Our implementation is standalone and does not require the original repository's code.
+
 ## Implementations
 
 1. **Sequential Version**: A baseline implementation without parallelization.

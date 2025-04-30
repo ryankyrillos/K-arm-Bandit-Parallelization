@@ -39,6 +39,13 @@ Parallelization can significantly reduce the computation time by distributing th
 
 ## Implementation Details
 
+### Reference Implementation
+
+This project was inspired by and references the following implementation:
+- [Multi-armed-bandit-RL](https://github.com/nicoleorzan/Multi-armed-bandit-RL) by Nicole Orzan
+
+While we studied the original implementation to understand the K-arm Bandit problem, our code is a complete reimplementation focused on parallelization using OpenMP and MPI. Our implementation is standalone and does not require the original repository's code.
+
 ### Sequential Implementation
 
 The sequential implementation runs each simulation one after another, with no parallelization. This serves as our baseline for performance comparison.
